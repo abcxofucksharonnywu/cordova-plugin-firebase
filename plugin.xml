@@ -42,7 +42,7 @@
         </config-file>
 
         <source-file src="src/android/Firebase.java" target-dir="src/org/apache/cordova/firebase" />
-        <resource-file src="google-services.json" target="google-services.json" />
+        <resource-file src="src/android/google-services.json" target="google-services.json" />
     </platform>
 
  
