@@ -43,7 +43,7 @@
 
         <source-file src="src/android/Firebase.java" target-dir="src/org/apache/cordova/firebase" />
         <resource-file src="src/android/google-services.json" target="google-services.json" />
-        <framework src="com.google.android.gms:play-services-gcm:+" />
+
     </platform>
 
  
