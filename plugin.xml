@@ -65,22 +65,22 @@
         <framework src="libstdc++.tbd" />
 
         
-        <framework src="src/ios/Analytics/FirebaseAnalytics.framework" custom="true" />
-        <framework src="src/ios/Analytics/FirebaseInstanceID.framework" custom="true" />
-        <framework src="src/ios/Analytics/GoogleInterchangeUtilities.framework" custom="true" />
-        <framework src="src/ios/Analytics/GoogleSymbolUtilities.framework" custom="true" />
-        <framework src="src/ios/Analytics/GoogleUtilities.framework" custom="true" />
+        <framework src="src/ios/FirebaseAnalytics.framework" custom="true" />
+        <framework src="src/ios/FirebaseInstanceID.framework" custom="true" />
+        <framework src="src/ios/GoogleInterchangeUtilities.framework" custom="true" />
+        <framework src="src/ios/GoogleSymbolUtilities.framework" custom="true" />
+        <framework src="src/ios/GoogleUtilities.framework" custom="true" />
         
-        <framework src="src/ios/Crash/FirebaseCrash.framework" custom="true" />
+        <framework src="src/ios/FirebaseCrash.framework" custom="true" />
         
         
-        <framework src="src/ios/Messaging/FirebaseMessaging.framework" custom="true" />
-        <framework src="src/ios/Messaging/GoogleIPhoneUtilities.framework" custom="true" />
+        <framework src="src/ios/FirebaseMessaging.framework" custom="true" />
+        <framework src="src/ios/GoogleIPhoneUtilities.framework" custom="true" />
         
-        <framework src="src/ios/RemoteConfig/FirebaseRemoteConfig.framework" custom="true" />
+        <framework src="src/ios/FirebaseRemoteConfig.framework" custom="true" />
         
-        <framework src="src/ios/Storage/FirebaseStorage.framework" custom="true" />
-        <framework src="src/ios/Storage/GoogleNetworkingUtilities.framework" custom="true" />
+        <framework src="src/ios/FirebaseStorage.framework" custom="true" />
+        <framework src="src/ios/GoogleNetworkingUtilities.framework" custom="true" />
         
         
         
