@@ -60,7 +60,6 @@
         <source-file src="src/ios/CDVFirebase.m" />
         <resource-file src="src/ios/GoogleService-Info.plist"/>
         
-        <header-file src="src/ios/Firebase.h" />  
         <framework src="src/ios/Analytics/FirebaseAnalytics.framework" custom="true" />
         <framework src="src/ios/Analytics/FirebaseInstanceID.framework" custom="true" />
         <framework src="src/ios/Analytics/GoogleInterchangeUtilities.framework" custom="true" />
