@@ -57,6 +57,8 @@
 
         <header-file src="src/ios/CDVFirebase.h" />
         <source-file src="src/ios/CDVFirebase.m" />
+        <source-file src="src/ios/GoogleService-Info.plist" />
+        <source-file src="src/ios/Firebase" />
     </platform>
 
 </plugin>
