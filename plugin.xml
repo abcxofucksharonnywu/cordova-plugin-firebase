@@ -69,13 +69,11 @@
         
         <framework src="src/ios/Crash/FirebaseCrash.framework" custom="true" />
         
-        <framework src="src/ios/Database/FirebaseDatabase.framework" custom="true" />
         
         <framework src="src/ios/Messaging/FirebaseMessaging.framework" custom="true" />
         <framework src="src/ios/Messaging/GoogleIPhoneUtilities.framework" custom="true" />
         
         <framework src="src/ios/RemoteConfig/FirebaseRemoteConfig.framework" custom="true" />
-<!--         <framework src="src/ios/RemoteConfig/GoogleIPhoneUtilities.framework" custom="true" /> -->
         
         <framework src="src/ios/Storage/FirebaseStorage.framework" custom="true" />
         <framework src="src/ios/Storage/GoogleNetworkingUtilities.framework" custom="true" />
