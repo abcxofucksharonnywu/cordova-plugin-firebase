@@ -60,6 +60,11 @@
         <source-file src="src/ios/CDVFirebase.m" />
         <resource-file src="src/ios/GoogleService-Info.plist"/>
         
+        <framework src="AddressBook.framework" />
+        <framework src="libsqlite3.tbd" />
+        <framework src="libstdc++.tbd" />
+
+        
         <framework src="src/ios/Analytics/FirebaseAnalytics.framework" custom="true" />
         <framework src="src/ios/Analytics/FirebaseInstanceID.framework" custom="true" />
         <framework src="src/ios/Analytics/GoogleInterchangeUtilities.framework" custom="true" />
@@ -76,6 +81,8 @@
         
         <framework src="src/ios/Storage/FirebaseStorage.framework" custom="true" />
         <framework src="src/ios/Storage/GoogleNetworkingUtilities.framework" custom="true" />
+        
+        
         
         
     </platform>
