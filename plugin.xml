@@ -54,10 +54,33 @@
                 <param name="ios-package" value="CDFirebase"/>
             </feature>
         </config-file>
-
+        
+        
         <header-file src="src/ios/CDVFirebase.h" />
         <source-file src="src/ios/CDVFirebase.m" />
         <resource-file src="src/ios/GoogleService-Info.plist"/>
+        
+        <header-file src="src/ios/Firebase.h" />  
+        <framework src="src/ios/Analytics/FirebaseAnalytics.framework" custom="true" />
+        <framework src="src/ios/Analytics/FirebaseInstanceID.framework" custom="true" />
+        <framework src="src/ios/Analytics/GoogleInterchangeUtilities.framework" custom="true" />
+        <framework src="src/ios/Analytics/GoogleSymbolUtilities.framework" custom="true" />
+        <framework src="src/ios/Analytics/GoogleUtilities.framework" custom="true" />
+        
+        <framework src="src/ios/Crash/FirebaseCrash.framework" custom="true" />
+        
+        <framework src="src/ios/Database/FirebaseDatabase.framework" custom="true" />
+        
+        <framework src="src/ios/Messaging/FirebaseMessaging.framework" custom="true" />
+        <framework src="src/ios/Messaging/GoogleIPhoneUtilities.framework" custom="true" />
+        
+        <framework src="src/ios/RemoteConfig/FirebaseRemoteConfig.framework" custom="true" />
+        <framework src="src/ios/RemoteConfig/GoogleIPhoneUtilities.framework" custom="true" />
+        
+        <framework src="src/ios/Storage/FirebaseStorage.framework" custom="true" />
+        <framework src="src/ios/Storage/GoogleNetworkingUtilities.framework" custom="true" />
+        
+        
     </platform>
 
 </plugin>
